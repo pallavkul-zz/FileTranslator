@@ -1,0 +1,11 @@
+{
+  "name": "cms-pallav",
+  "version": "0.0.1",
+  "dependencies": {
+    "cheerio": "^0.18.0",
+    "fs": "0.0.2",
+    "google-translate": "^0.1.8",
+    "q": "^1.2.0",
+    "request": "^2.53.0"
+  }
+}
