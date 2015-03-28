@@ -4,7 +4,7 @@ var request = require('request');
 var cheerio = require('cheerio');
 
 var fileName = "inputfile.html";
-var apiKey = 'AIzaSyAHdh81M-o2YtD62TTBH-6cFa-GkDk-eqc';
+var apiKey = 'USE_YOUR_GOOGLE_API_KEY';
 var googleTranslate = require('google-translate')(apiKey);
 
 fs.exists(fileName, function(exists) {
