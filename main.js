@@ -4,7 +4,7 @@ var request = require('request');
 var cheerio = require('cheerio');
 
 var fileName = "inputfile.html";
-var apiKey = 'YOUR_GOOGLE_API_KEY';
+var apiKey = 'AIzaSyAHdh81M-o2YtD62TTBH-6cFa-GkDk-eqc';
 var googleTranslate = require('google-translate')(apiKey);
 
 fs.exists(fileName, function(exists) {
@@ -24,7 +24,7 @@ fs.exists(fileName, function(exists) {
 
                     $('.replaceble').each(function(i, element){
                         var _self = $(this);
-                        googleTranslate.translate($(this).text(), 'hi', function(err, translation) {
+                        googleTranslate.translate($(this).text(), 'es', function(err, translation) {
 
                           //console.log(translation);
 
